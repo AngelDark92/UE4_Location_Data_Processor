@@ -1,0 +1,71 @@
+('D:\\Unreal Projects\\PythonProgram\\build\\Test\\Test.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz',
+   'D:\\Unreal Projects\\PythonProgram\\build\\Test\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python310\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyimod04_ctypes',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\lib\\site-packages\\PyInstaller\\loader\\pyimod04_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_subprocess',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('pyi_rth_mplconfig',
+   'D:\\Unreal '
+   'Projects\\PythonProgram\\pythonenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_mplconfig.py',
+   'PYSOURCE'),
+  ('Test', 'D:\\Unreal Projects\\PythonProgram\\Test.py', 'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
