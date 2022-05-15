@@ -12,6 +12,7 @@ import os
 
 root = Tk()
 root.resizable(False, False)
+root.iconbitmap("openicon.ico")
 root.title("Position Data Unpacker")
 root.geometry("300x100")
 
@@ -59,14 +60,14 @@ def func(file, filpath):
                 b=b.replace("Z", "")
                 b=b.replace("=", "")
                 pos1.append(b.rsplit(" "))
-    pos2 = np.array(pos1, dtype=np.float)
+    pos2 = np.array(pos1, dtype=float)
     #position in time
     Roft = pos2[:,0:2]
 
     #HEAT MAP
 
     #set number of subdivisions per axis
-    sub = 10
+    sub = 15
 
     xmint = np.floor(xmin)
     xmaxt = np.ceil(xmax)
