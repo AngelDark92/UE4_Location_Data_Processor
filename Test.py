@@ -12,7 +12,7 @@ import os
 
 root = Tk()
 root.resizable(False, False)
-root.iconbitmap("openicon.ico")
+root.iconbitmap("D:/Unreal Projects/PythonProgram/openicon.ico")
 root.title("Position Data Unpacker")
 root.geometry("300x100")
 
@@ -38,7 +38,7 @@ def transform(file):
         os.mkdir(filpath)
         func(file, filpath)
     else:
-        answer = askyesno(title='Folder already exists', message='Are you sure that you want to rebuild it?')
+        answer = askyesno(title='Folder already exists', message='Are you sure that you want to rebuild it?', icon = "warning")
         if answer:
             func(file, filpath)
         else:
