@@ -12,7 +12,7 @@ import os
 
 root = Tk()
 root.resizable(False, False)
-root.iconbitmap("D:/Unreal Projects/PythonProgram/openicon.ico")
+root.iconbitmap("./openicon.ico")
 root.title("Position Data Unpacker")
 root.geometry("300x100")
 
@@ -20,7 +20,7 @@ l= Label(root, wraplength = 250, justify = LEFT, text = "Open file positionData.
 l.config(font =("Times New Roman", 11))
 
 def open_file():
-    file = askopenfilename(title="Find positionData.csv", filetypes=[("positionData", "positionData.csv")])
+    file = askopenfilename(title="Find (name) - positionData.csv", filetypes=[("PositionData", "*.csv")])
     if not (len(file)) == 0:
         transform(file)
 
@@ -33,6 +33,7 @@ btn.pack()
 
 def transform(file):
     #create a string variable with the path to the open file
+    #this must be changed because the filename will be variable
     filpath = file[:-17] + "/UnpackedData"
     if not os.path.exists(filpath):
         os.mkdir(filpath)
@@ -44,7 +45,7 @@ def transform(file):
         else:
             pass
 
-#this is the main function, it accepts the file itself and the filepath to save the gif and png's in            
+#this is the main function, it accepts the file itself and the filepath to save the gif and pngs in            
 def func(file, filpath):
     pos1 = []
     xmin = -338.278
@@ -61,6 +62,7 @@ def func(file, filpath):
                 b=b.replace("=", "")
                 pos1.append(b.rsplit(" "))
     pos2 = np.array(pos1, dtype=float)
+    
     #position in time
     Roft = pos2[:,0:2]
 
