@@ -28,5 +28,5 @@ The line 51-54:
 ```
 Contains the max coordinates that the box is going to render, this will need to be updated for every project accordingly.
 
-##acknowledgements
+## Acknowledgements
 This program in particular is very heavy on RAM because it collects all the data at once and converts it to a gif file. A future version might contain an iterative process to creater various .png files to then put them together into a .gif animation file.
