@@ -19,11 +19,12 @@ in the .csv file.
 
 The line 51-54:
 ```python
-xmin = -338.278
+#other code before line 51
+    xmin = -338.278
     xmax = 778.277
     ymin = -798.278
     ymax = 308.277
-print s
+#code continues after line 54
 ```
 Contains the max coordinates that the box is going to render, this will need to be updated for every project accordingly.
 
